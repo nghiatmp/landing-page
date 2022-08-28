@@ -405,7 +405,7 @@
 					running = true;
 					img.attr('src', 'img/mining/animation_3.gif');
 					setTimeout(() => {
-						img.attr('src', '');
+						// img.attr('src', '');
 						img.attr('src', 'img/mining/4.gif');
 						running = false;
 						setTimeout(() => {
@@ -421,7 +421,7 @@
 			function onClickReceive() {
 				setTimeout(function() {
 					localStorage.setItem('prize', prize)
-					$(location).attr('href','http://127.0.0.1:5500/register.html');s
+					$(location).attr('href','register.html');s
 				}, 200);
 			}
 		$(document).ready(function() {
