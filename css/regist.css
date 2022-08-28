@@ -1,0 +1,139 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+body h1, h2, h3, h4, h5, h6, p, a, label {
+	color: #FFFFFF;
+}
+
+.register {
+	min-height: 100vh;
+	background-image: url('../img/background_regist.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.register img {
+	position: absolute;
+	right: 0;
+	height: calc(100vh / 2.5);
+}
+
+.layout {
+	padding-top: 130px;
+	width: 80%;
+}
+
+.layout h5 {
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.layout h1 {
+	font-weight: 700;
+	font-size: 40px;
+}
+
+.layout p {
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.layout p a {
+	color: #F0BC44;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+form .form-group {
+	position: relative;
+}
+
+form input {
+	height: 87px;
+	border-radius: 24px !important;
+	background-color: rgba(49, 114, 234, 0.13) !important;
+	color: #FFFFFF !important;
+	font-size: 20px !important;
+	font-weight: 500 !important;
+}
+
+form label {
+	color: #ADADAD !important;
+	font-weight: 400 !important;
+	font-size: 14px !important;
+	position: absolute;
+	top: 8px;
+    left: 15px;
+}
+
+form .form-group.row label {
+	left: 28px;
+}
+
+form label span {
+	font-weight: 400;
+	font-size: 14px;
+}
+
+form label span {
+	color: #F0BC44;
+}
+
+form button {
+	width: 265px;
+	height: 70px;
+	border-radius: 63px !important;
+	background-color: #F0BC44 !important;
+	color: #000000 !important;
+	font-weight: 600 !important;
+	font-size: 24px !important;
+}
+
+.form-control {
+	border: none !important;
+}
+
+.form-check, .form-check label {
+	margin-left: 40px !important;
+	margin-bottom: 40px;
+}
+
+.form-check-input {
+	width: 30px;
+	height: 30px;
+}
+
+.form-check label {
+	padding-left: 20px;
+}
+
+form input[type='checkbox'] {
+	border-radius: initial !important;
+}
+
+@media only screen and (max-width: 992px) {
+	.register img {
+		height: calc(100vh / 5);
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.layout {
+		width: 100%;
+	}
+
+	form .form-group:last-child {
+		margin-top: 1.5rem;
+	}
+
+	.form-check, .form-check label {
+		margin-left:  10px !important;
+	}
+
+	#button-submit {
+		text-align: center;
+		padding-bottom: 30px;
+	}
+}

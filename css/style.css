@@ -1,0 +1,767 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+body h1, h2, h3, h4, h5, h6, p, a {
+	color: #FFFFFF;
+}
+
+.w-30 {
+    width: 30% !important;
+}
+
+.w-70 {
+    width: 70% !important;
+}
+
+.w-90 {
+    width: 90% !important;
+}
+
+.home_agency {
+	background-image: url('../img/background_top.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+	min-height: calc(100vw / 2.1);
+}
+
+header img {
+	margin: 50px 0 0 50px;
+}
+
+.header-mo, .rochak-mo, #feature_mo, .own_trending_area_mo {
+    display: none;
+}
+
+.title-background h1 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 64px;
+	padding-top: calc(100vh / 10);
+}
+
+.title-background h1 span, .free_mining h2 {
+	color: #F0BC44;
+}
+
+.free_mining h4 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.get_started {
+	text-align: center;
+    padding-top: 50px;
+}
+
+.p_100 {
+    padding: 100px 0px;
+}
+
+.media {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.small_feature_area {
+	background-image: url('../img/background_feature_area.png'), linear-gradient(117.9deg, rgba(255, 255, 255, 0.237) 8.67%, rgba(232, 232, 232, 0.3) 89.41%);
+	background-repeat: no-repeat;
+	background-size: cover;
+    min-height: calc(100vw / 5.97);
+    display: flex;
+    align-items: center;
+    opacity: 0.9;
+}
+
+.small_feature_inner .media .d-flex h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    position: relative;
+}
+
+.small_feature_inner .media .d-flex h3:before {
+    content: "";
+    height: 50px;
+    width: 2px;
+    background: #F0BC44;
+    position: absolute;
+    right: -16px;
+    top: 60%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.small_feature_inner .media .d-flex {
+    padding-right: 30px;
+}
+
+.small_feature_inner .media .media-body {
+    -ms-flex-item-align: center;
+    align-self: center;
+    vertical-align: middle;
+}
+
+.small_feature_inner .media .media-body p {
+    font-size: 24px;
+}
+
+.choose_bitcoin_area {
+    background: #0F1E3D;
+}
+
+.choose_bitcoin_area h2 {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.main_title {
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 70px;
+}
+
+
+.main_title p {
+    max-width: 700px;
+    margin: auto;
+    font-size: 14px;
+    line-height: 26px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.choose_bit_inner {
+    margin-bottom: -30px;
+}
+
+.choose_botcoin_item {
+    background: #0F1E3D;
+    text-align: center;
+    padding: 50px 30px;
+    position: relative;
+    margin-bottom: 30px;
+    height: 90%;
+    border: 3px solid #0048CC;
+  	border-radius: 5px;
+}
+
+.choose_botcoin_item h4 {
+    font-size: 18px;
+    padding: 20px 0;
+}
+
+.choose_botcoin_item p {
+    font-size: 14px;
+}
+
+.choose_botcoin_item a {
+	text-decoration: none;
+}
+
+.vector {
+	background-image: url('../img/vector.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+	min-height: calc(100vw / 12.7);
+	background-color: #0F1E3D;
+}
+
+.bitcoin_about_area {
+	/*background-image: url('../img/background_coin.png');*/
+    background-color: #0F1E3D;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    min-height: calc(100vw / 1.82);
+}
+
+.bit_about_text h3 {
+	font-weight: bold;
+	text-align: center;
+    font-size: 40px;
+}
+
+.bitcoin_about_area h6 {
+	padding-top: 100px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bitcoin_about_area p {
+	padding-top: 20px;
+    font-size: 16px;
+    font-family: regular;
+}
+
+.bitcoin_about_area img {
+    max-width: 100%;
+}
+
+.our_skill_inner {
+	position: relative;
+    height: 70px;
+    margin-bottom: 30px;
+}
+
+.our_skill_inner h3 {
+    font-size: 24px;
+}
+
+.our_skill_inner img {
+	position: absolute;
+}
+
+.single_skill {
+	position: absolute;
+    width: 80%;
+    right: 0;
+}
+
+.progress {
+    border-radius: 0;
+}
+
+.why_gain_bitcoin, .bitcoin_calculater_area {
+    background-color: #0F1E3D;
+}
+
+.own_trending_area {
+    background-image: url('../img/background_own.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    min-height: calc(100vw + 96px);
+}
+
+.bitcoin_calculater_area h4 {
+	font-weight: 700;
+	font-size: 40px;
+}
+
+.bitcoin_calculater_area p {
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.bitcoin_calculater_area {
+    height: 600px;
+}
+
+
+.HS1label, .HS1msg_1 {
+    display: none !important;
+}
+
+.coin_calculator .HS1mainContainer tbody tr td:nth-child(3) .HS1textarea {
+    width: 155px !important;
+    display: block;
+    text-align: center;
+    height: 75px;
+    border: 1px solid #fff;
+    background-color: #0F1E3D;
+    color: #FFFFFF;
+    font-size: 18px;
+    border-color: #004CCC;
+    padding: 0px 15px;
+    outline: none;
+    font-weight: 700;
+    position: absolute;
+    left: 0;
+}
+
+.coin_calculator .HS1mainContainer tbody tr td:nth-child(5) .HS1textarea {
+    width: 162px !important;
+    display: block;
+    text-align: center;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    height: 75px;
+    background-color: #0F1E3D;
+    padding: 0px 15px;
+    outline: none;
+    resize: none;
+    font-size: 18px;
+    color: #FFFFFF !important;
+    font-weight: 700;
+    border-color: #004CCC;
+    position: absolute;
+    left: 170px;
+    line-height: 75px;
+}
+
+.coin_calculator .HS1mainContainer tbody tr td:nth-child(2) .nice-select.HS1selectBox {
+    border-radius: 0px;
+    border: none;
+}
+
+.HS1mainContainer {
+    position: relative;
+}
+
+#HS1to {
+    width: 296px;
+    height: 75px;
+    background-color: #0F1E3D;
+    color: #FFFFFF;
+    font-size: 18px;
+    border-color: #004CCC;
+    position: absolute;
+    right: 0;
+    font-weight: 400;
+    padding-left: 10px !important;
+}
+
+#HS1to optgroup {
+    display: none;
+}
+
+.free_mining {
+    background-image: url('../img/free_mining.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    min-height: calc(100vw / 1.65);
+    position: relative;
+}
+
+.free_mining .show-prize {
+    display: none;
+    position: absolute;
+    width: fit-content;
+    bottom: 220px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.free_mining .show-prize .text {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+}
+
+#mining-action {
+    max-width: 100%;
+}
+
+.free_mining .show-prize img {
+    width: 350px;
+    height: 200px;
+}
+
+.free_mining .show-prize button {
+    padding: 7px 15px;
+    border: none;
+    background-color: #2DAE40;
+    border-radius: 6px;
+    color: #FFFFFF;
+}
+
+.clients_slider_area {
+    height: 336px;
+}
+
+.owl-carousel .owl-item img {
+	width: inherit !important;
+	text-align: center;
+}
+
+.clients_slider_area .container {
+  	height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.clients_slider_area .item {
+   	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_area {
+    background-image: url('../img/background_footer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    min-height: calc(100vw / 2);
+    background-color: #0F1E3D;
+}
+
+.footer_area .container {
+    padding-top: 150px;
+}
+
+.footer_area .container a {
+    text-decoration: none;
+}
+
+.footer_area .container p, .footer_area .container a {
+    color: #B4B2B2;
+    font-size: 20px;
+}
+
+.footer_area .container .row .col-lg-4 p:first-child {
+    width: 70%;
+}
+
+.why_gain_bitcoin img {
+    max-width: 100%;
+}
+
+.bitcoin_calculater_area .col-lg-5 img {
+    text-align: center;
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+    header, .bitcoin_about_area .col-lg-5 img, .why_gain_bitcoin img {
+        display: none;
+    }
+
+    .header-mo {
+        display: block;
+        background-color: #0F1E3D;
+    }
+
+    .header-mo img {
+        padding: 10px 20px;
+    }
+
+    .title-background h1 {
+        font-size: 24px;
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    .get_started img {
+        height: 32px;
+    }
+
+    .home_agency {
+        background-image: url(../img/background_top_mo.png);
+        min-height: calc(100vw + 35px);
+    }
+
+    .small_feature_area {
+        max-height: 276px;
+    }
+
+    .small_feature_inner .media .media-body p {
+        font-size: 16px;
+        padding-left: 10px;
+        margin-bottom: inherit;
+    }
+
+    .media {
+        padding-left: 30px;
+        padding-bottom: 20px;
+    }
+
+    .container {
+        padding: 0 20px;
+    }
+
+    .choose_bitcoin_area {
+        padding-top: 30px;
+    }
+
+    .choose_bitcoin_area h2 {
+        font-size: 24px;
+    }
+
+    .choose_botcoin_item {
+        padding: 30px 20px;
+    }
+
+    .main_title {
+        margin-bottom: 40px;
+    }
+
+    .bit_about_text h3 {
+        font-size: 20px;
+    }
+
+    .bitcoin_about_area {
+        background-image: url(../img/background_coin.png),
+        radial-gradient(354.67% 106.09% at 39.95% 98.14%, rgba(50, 98, 141, 0.88) 0%, rgba(15, 30, 61, 0.92) 100%);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+        min-height: calc(100vw / 1.82);
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .rochak-mo {
+        display: block;
+        text-align: center;
+    }
+
+    .rochak-mo img {
+        text-align: center;
+    }
+
+    #feature_mo {
+    	display: inline-flex;
+    }
+
+    .bitcoin_calculater_area img {
+    	width: 100%;
+    	padding: 20px 0; 
+    }
+
+    .bitcoin_about_area h6 {
+    	padding-top: 0;
+    	font-size: 16px;
+    	font-weight: 600;
+    	text-align: center;
+    }
+
+    .bitcoin_about_area p {
+    	font-size: 13px;
+    	font-weight: 400;
+    	text-align: center;
+    }
+
+
+    .bitcoin_about_area .row {
+    	margin: 0;
+    }
+
+    .bitcoin_about_area .row .col-lg-5 {
+    	padding: 0 20px;
+    }
+
+    .single_skill {
+    	width: 100%;
+    }
+
+    .our_skill_inner h3 {
+    	font-size: 15px;
+    	font-weight: 700;
+    }
+
+    .our_skill_inner {
+    	margin-bottom: 0;
+    }
+
+    .why_gain_bitcoin {
+    	padding-top: 40px;
+    	padding-bottom: 40px;
+    }
+
+    .why_gain_bitcoin h2 {
+    	font-size: 24px;
+    	font-weight: 700;
+    }
+
+    .why_gain_bitcoin .main_title {
+    	margin-bottom: 30px;
+    }
+
+    .own_trending_area {
+    	background-image: inherit;
+    	background: radial-gradient(215.96% 51.97% at 48.44% 65.45%, rgba(50, 98, 141, 0.88) 0%, rgba(15, 30, 61, 0.92) 100%);
+    }
+
+    .own_trending_area_mo {
+        display: block; 
+    	padding: 30px 20px 0 20px;
+    }
+
+    .own_trending_area_mo h4 {
+    	text-align: center;
+    	font-size: 24px;
+    	font-weight: 700;
+    }
+
+    .own_trending_area_mo p {
+    	text-align: center;
+    	font-size: 14px;
+    	font-weight: 400;
+    	padding-top: 20px;
+    }
+
+    .trending_list {
+    	text-align: center;
+    	padding-bottom: 40px;
+    }
+
+    .trending_list h2 {
+    	font-size: 32px;
+    	font-weight: 900;
+    	color: #F0BC44;
+    }
+
+    .trending_list h4 {
+    	font-size: 24px;
+    	font-weight: 700;
+    }
+
+    .trending_list p {
+    	font-size: 14px;
+    	font-weight: 400;
+    }
+
+    .bitcoin_calculater_area {
+    	padding: 40px 0;
+    	height: calc(100vh + 130px);
+    }
+
+    .bitcoin_calculater_area h4 {
+    	font-size: 24px;
+    	font-weight: 600;
+    }
+
+    .bitcoin_calculater_area p {
+    	font-size: 14px;
+    	font-weight: 400;
+    	padding-top: 20px;
+    }
+
+    .bitcoin_calculater_area .col-lg-7 p {
+    	font-size: 16px;
+    	font-weight: 400;
+    	padding-bottom: 0 !important;
+    }
+
+    .free_mining {
+    	padding-top: 250px;
+    }
+
+    .free_mining h4  {
+    	font-size: 24px;
+    	font-weight: 700;
+    }
+
+    .free_mining h2  {
+    	font-size: 20px;
+    	font-weight: 500;
+    }
+
+    .free_mining p  {
+    	font-size: 14px;
+    	font-weight: 400;
+    }
+
+    .clients_slider_area {
+    	background: url('../img/background_slider_mo.png'), linear-gradient(117.9deg, rgba(255, 255, 255, 0.5) 8.67%, rgba(255, 255, 255, 0.5) 89.41%);
+		opacity: 0.9;
+    }
+
+    .footer_area {
+	    background-image: url(../img/background_footer_mo.png);
+	}
+
+	.footer_area .container {
+		padding-top: 50px;
+	}
+
+	.footer_area img {
+		width: 30%;
+	}
+
+	.footer_area .container p {
+		font-size: 14px;
+		font-weight: 400;
+	}
+
+	.footer_area .container h2 {
+		font-size: 24px;
+		font-weight: 700;
+	}
+
+	.footer_area .container p a {
+		font-size: 16px;
+		font-weight: 400;
+	}
+
+    #HS1to {
+        width: 100%;
+    }
+
+    .coin_calculator .HS1mainContainer tbody tr td:nth-child(3) .HS1textarea {
+        width: 100% !important;
+        top: 90px;
+    }
+
+    .coin_calculator .HS1mainContainer tbody tr td:nth-child(5) .HS1textarea {
+        width: 100% !important;
+        top: 180px;
+        left: 0;
+    }
+    .free_mining .show-prize {
+        display: none;
+        position: absolute;
+        width: fit-content;
+        bottom: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+    }
+    
+    .free_mining .show-prize .text {
+        font-size: 1.5rem;
+        color: #fff;
+        text-align: center;
+    }
+    .free_mining .show-prize img {
+        width: 320px;
+        height: 190px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .coin_calculator .HS1mainContainer tbody tr td:nth-child(5) .HS1textarea {
+        left: 200px;
+    }
+
+    .bitcoin_calculater_area {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .bitcoin_calculater_area {
+        height: 700px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+    .title-background h1 {
+        font-size: 45px;
+    }
+
+    .small_feature_area {
+        padding: 40px 0;
+    }
+
+    .choose_bitcoin_area {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+
+    .coin_calculator .HS1mainContainer tbody tr td:nth-child(5) .HS1textarea {
+        width: 132px !important;
+        left: 140px;
+    }
+
+    .coin_calculator .HS1mainContainer tbody tr td:nth-child(3) .HS1textarea {
+        width: 125px !important;
+    }
+
+    #HS1to {
+        width: 250px;
+    }
+}
+
+@media only screen and (min-width: 1800px) {
+    .free_mining .show-prize {
+        bottom: 400px;
+    }
+}
